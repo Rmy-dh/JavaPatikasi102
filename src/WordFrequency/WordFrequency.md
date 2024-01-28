@@ -2,6 +2,7 @@
 ``` 
 
      Input:   Enter your sentence: Frequency describes the number of waves that pass a fixed place in a given amount of time.
+     
      Output:  waves->1
               a->2
               given->1
@@ -19,7 +20,7 @@
               time->1
      
 ```
-**ReplaceAll()**
+🎯 **ReplaceAll()**  
 * string.replaceAll(String regex, String replacement)
 
 ```java
@@ -38,7 +39,7 @@
     regex="\\d+";                
     System.out.println(str1.replaceAll(regex, " "));
     //Output:Java -is fun.
-    regex="\\s+";                //space    
+    regex="\\s+";                                                     //space    
     System.out.println(str1.replaceAll(regex, " "));   
     //Output:Java123-is456fun.  
     
