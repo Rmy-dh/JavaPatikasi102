@@ -12,7 +12,7 @@ public class WordFrequency {
         sentence=sentence.toLowerCase();
         String[] arr=sentence.split(" ");
         HashMap<String,Integer> listOfWords=new HashMap<>();
-        for(String word: arr){ // TODO ben input da space enter yapınca  You give empthy character! vermiyo
+        for(String word: arr){
             if(!word.isEmpty()){
                 //If there are characters other than these characters("[^a-zA-Z0-9]") in the word, the value "" is returned.
                 word=word.replaceAll("[^a-zA-Z0-9]","");
