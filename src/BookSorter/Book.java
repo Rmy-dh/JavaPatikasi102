@@ -1,8 +1,5 @@
 package BookSorter;
 
-import java.util.Comparator;
-import java.util.TreeSet;
-
 public class Book implements Comparable<Book> {
     private String name;
     private int pageNumber;

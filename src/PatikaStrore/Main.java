@@ -1,8 +1,6 @@
 package PatikaStrore;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,26 +21,26 @@ public class Main {
                 7000.0,"Huawei",512,14.0,16);
 
 
-                                               //Giriş paneli
-        while (selection!=0){                 //Çıkış yapmak isteyene kadar devam eder
+                                                              //Giriş paneli
+        while (selection!=0 && selection<4){                 //Çıkış yapmak isteyene kadar devam eder
 
             System.out.println("Patika ürün yönetim paneli!");
             System.out.println("1-Notebook İşlemleri\n" + "2-Cep Telefonu İşlemler\n" +
                     "3-Marka Listele\n" + "0-Çıkış Yap");
-            System.out.println("Tercihiniz: ");
+            System.out.print("Tercihiniz: ");
             selection=input.nextInt();
             switch (selection){
                 case 1:
                     n1.addDevice(n1);
                     n1.addDevice(n2);
-                    n1.deleteDevice(1);
+                    //n1.deleteDevice(1);
 
                     n1.printDevice();
                     break;
                 case 2:
                     m1.addDevice(m1);
                     m1.printDevice();
-                    m1.deleteDevice(0);
+                    //m1.deleteDevice(0);
 
                     break;
                 case 3:
